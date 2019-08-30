@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.TestNGG.Ignore"/>
+      <class name="com.TestNGG.Ignored2"/>
+      <class name="com.TestNGG.FBLogin"/>
+      <class name="com.TestNGG.Parlle"/>
+      <class name="com.selectConcept.DataProv"/>
+      <class name="com.TestNGG.DataPro"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
